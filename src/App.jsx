@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import { TweetContext } from "./context/TweetContext";
 import { generateTweets as generateTweetsAPI } from "./services/TweetService";
 import "./App.css";
-import BrandForm from "./components/Brandform";
+import BrandForm from "./components/BrandForm";
 
 const App = () => {
   const {
