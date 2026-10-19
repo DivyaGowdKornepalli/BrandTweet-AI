@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:8080/api/generate";
+const API_URL = "https://brandtweet-ai-backend.onrender.com/api/generate";
 
 export const generateTweets = async (formData) => {
   const response = await fetch(API_URL, {
